@@ -59,8 +59,9 @@ a {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(5, minmax(150px, auto));
 }
-.li{
+ul.a{
     list-style-type: circle;
+    margin-left: .5rem;
 }
 .item-1{
     grid-row: 1/2;
@@ -164,3 +165,4 @@ a {
     grid-row: 2/6;
     grid-column: 1/7;
 }
+p{padding: .5rem}
