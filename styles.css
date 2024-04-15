@@ -1,0 +1,166 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    
+}
+nav {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    margin-right: 55px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+@media (max-width: 768px) {
+    li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+.Content {
+    width: 900px;
+    background-color: gainsboro;
+    height: 400px;
+    margin: 0 auto;
+}
+.header{
+    height: 900px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, minmax(150px, auto));
+}
+.li{
+    list-style-type: circle;
+}
+.item-1{
+    grid-row: 1/2;
+    height: 150px;
+    
+    grid-column: 1/7;
+
+}
+.item-2{
+    grid-row: 2/3 ;
+    grid-column: 1/7;
+    height: 200px;
+    text-align: center;
+}
+.item-3{
+    padding: 20px;
+    grid-row: 3/6 ;
+    grid-column: 1/5;
+    
+}
+.item-4{
+    grid-row: 3/6 ;
+    grid-column: 5/7;
+    
+}
+.paralax-1{
+    height: 500px;
+    background-image: url('./pics/flow-flo-pXLWiickGlQ-unsplash.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.About{
+    height: 900px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, minmax(150px, auto));
+}
+.about-item-1{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.about-item-2{
+    grid-column: 4/7;
+    grid-row: 1/5;
+}
+.about-item-3{
+    grid-column: 1/4;
+    grid-row: 2/6; 
+
+}
+.Academic{
+    height: 900px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, minmax(150px, auto));
+    gap: 10px;
+}
+.ah1{
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+}
+.academics-item-1{
+    grid-row: 1/2;
+    height: 150px;
+    
+    grid-column: 4/7;
+}
+.academics-item-2{
+    grid-row: 1/4; 
+    grid-column: 1/4;
+}
+.academics-item-3{
+    grid-row: 2/6;
+    grid-column: 4/7;
+}
+.Work{
+    height: 900px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, minmax(150px, auto));
+}
+.Reflective{
+    height: 1000px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, minmax(150px, auto));
+}
+
+.r-item-1{
+    grid-row: 1/2;
+    grid-column: 1/7;
+}
+.r-item-2{
+    grid-row: 2/6;
+    grid-column: 1/7;
+}
